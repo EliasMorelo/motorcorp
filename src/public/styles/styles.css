@@ -1,0 +1,398 @@
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#CONTAINER {
+		position: fixed;
+		width: 360px;
+		height: 640px;
+		background: url('/img/imagen_2.png');
+		background-position: center center;
+		overflow: hidden;
+		transform: translate(120%, 1%);
+	}
+	a{
+		color:black;
+		text-decoration: none;
+	}
+	a:hover{
+		color: black;
+		cursor: pointer;
+		text-decoration: none;
+	}
+	#BATTERY {
+		overflow: visible;
+		position: absolute;
+		left: 324px;
+		top: 7px;
+		color: white;
+	}
+	#HOUR {
+		position: absolute;
+		left: 154px;
+		top: 6px;
+		color: white;
+	}
+	#SIGNAL {
+		overflow: visible;
+		position: absolute;
+		left: 6px;
+		top: 7px;
+		color: white;
+	}
+	#WIFI {
+		overflow: visible;
+		position: absolute;
+		left: 38px;
+		top: 5px;
+		color: white;
+	}
+	#New_Visit {
+		position: absolute;
+		left: 100px;
+		top: 50px;
+		color: white;
+	}
+	#Date_Visit {
+		position: absolute;
+		top: 145px;
+	}
+	#Name_Customer{
+		position: absolute;
+		top: 190px;
+	}
+	#Type_Visit {
+		position: absolute;
+		top: 250px;
+		color: white;
+	}
+	#Type{
+		position: absolute;
+		left: 110px;
+		top: 250px;
+	}
+	#Description {
+		position: absolute;
+		top: 300px;
+	}
+	#Send {
+		position: absolute;
+		left: 136px;
+		top: 500px;
+	}
+	#BACK {
+		overflow: visible;
+		position: absolute;
+		left: 3px;
+		top: 67px;
+		font-size: 25px;
+	}
+	#BACK_TWO{
+		overflow: visible;
+		position: absolute;
+		left: 20px;
+		top: 570px;
+		font-size: 35px;
+	}
+	#BACK_TWO_PROFILE{
+		overflow: visible;
+		position: absolute;
+		left: 20px;
+		top: 520px;
+		font-size: 35px;
+	}
+	#New_User{
+		position: absolute;
+		left: 128px;
+		top: 170px;
+	}
+	#Name_User {
+		position: absolute;
+		top: 230px;
+	}
+	#Email_User {
+		position: absolute;
+		top: 280px;
+	}
+	#Password_User {
+		position: absolute;
+		top: 330px;
+	}
+	#Confirme_Password_User {
+		position: absolute;
+		top: 380px;
+	}
+	#Signup_User{
+		position: absolute;
+		left: 95px;
+		width: 150px;
+		top: 430px;
+	}
+	#Search {
+		position: absolute;
+		top: 60px;
+	}
+	#New_Customer {
+		position: absolute;
+		left: 90px;
+		top: 100px;
+		color: white;
+	}
+	#Name_New_Customer {
+		position: absolute;
+		top: 167px;
+	}
+	#Plate_License {
+		position: absolute;
+		top: 214px;
+	}
+	#Make {
+		position: absolute;
+		top: 260px;
+	}
+	#Model {
+		position: absolute;
+		top: 301px;
+	}
+	#Vin {
+		position: absolute;
+		top: 343px;
+	}
+	#Add {
+		position: absolute;
+		left: 95px;
+		width: 150px;
+		top: 413px;
+	}
+	#CIRCLE {
+		overflow: visible;
+		position: absolute;
+		left: 150px;
+		top: 570px;
+		font-size: 35px;
+	}
+	#CIRCLE_PROFILE {
+		overflow: visible;
+		position: absolute;
+		left: 150px;
+		top: 520px;
+		font-size: 35px;
+	}
+	#Image {
+		position: absolute;
+		width: 173px;
+		height: 95px;
+		left: 94px;
+		top: 91px;
+		overflow: visible;
+	}
+	#TEXT {
+		position: absolute;
+		left: 15px;
+		top: 186px;
+		overflow: visible;
+        color: white;
+	}
+	#Email {
+		position: absolute;
+		top: 290px;
+	}
+	#Password {
+		position: absolute;
+		top: 349px;
+	}
+	#Login {
+		background-color: blue;
+		position: absolute;
+		top: 415px;
+	}
+	#Sign_Up {
+		position: absolute;
+		right: 25px;
+		top: 470px;
+	}
+	#Login_with_Facebook {
+		background-color: blue;
+		position: absolute;
+		top: 500px;
+	}
+	#Login_with_Google_ {
+		background-color: blue;
+		position: absolute;
+		top: 545px;
+	}
+	#Search_Cos {
+		position: absolute;
+		left: 141px;
+		top: 0px;
+	}
+	#MENU {
+		position: relative;
+		top:40px;
+		width: 100%;
+		background-color: rgba(172,166,166,1);
+	}
+	#MENU p{
+		color: white;
+	}
+	#Label {
+		position: absolute;
+		left: 14px;
+		top: 100px;
+		overflow: visible;
+		color: white;
+	}
+	#Query {
+		position: relative;
+		left: 0px;
+		top: 180px;
+	}
+	#Button {
+		position: absolute;
+		left: 250px;
+		top: 180px;
+	}
+	#Search_By {
+		position: absolute;
+		width: 180px;
+		left: 140px;
+		top: 100px;
+		overflow: visible;
+	}
+	#Show {
+		position: absolute;
+		left: 10px;
+		top: 260px;
+	}
+	#Show_Two{
+		position: absolute;
+		width: 100%;
+		height: 250px;
+		left: 10px;
+		top: 240px;
+		overflow: scroll;
+	}
+	#Search_ {
+		position: absolute;
+		left: 29px;
+		top: 67px;
+		color: white;
+	}
+	#Profile {
+		position: absolute;
+		left: 157px;
+		top: 40px;
+		color: white;
+	}
+    #Icon_Customer{
+		 position: absolute;
+		 left: 140px;
+		 top: 100px;
+		 font-size: 100px;
+		 color: white;
+	 }
+	#Show_Name {
+		position: absolute;
+		left: 113px;
+		top: 194px;
+		color: white;
+	}
+	#Show_Plate {
+		position: absolute;
+		left: 125px;
+		top: 229px;
+		color: white;
+	}
+	#Show_Make{
+		position: absolute;
+		left: 125px;
+		top: 250px;
+		color: white;
+	}
+	#Show_Model {
+		position: absolute;
+		left: 129px;
+		top: 271px;
+		color: white;
+	}
+	#Show_Vin {
+		position: absolute;
+		left: 119px;
+		top: 291px;
+		color: white;
+	}
+	#Previous_visits {
+		position: absolute;
+		left: 9px;
+		top: 320px;
+		color: white;
+	}
+	#Show_T{
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		left: 10px;
+		top: 360px;
+		overflow: scroll;
+	}
+	#Search {
+		position: absolute;
+		left: 20px;
+		top: 49px;
+		color: white;
+	}
+	#Profile_Customer{
+		position: absolute;
+		left: 50px;
+		top: 150px;
+		font-size: 100px;
+		color: white;
+	}
+	#Customer {
+		position: absolute;
+		left: 50px;
+		top: 250px;
+		color: white;
+	}
+	#Profile_Type{
+		position: absolute;
+		left: 210px;
+		top: 150px;
+		font-size: 100px;
+		color: white;
+	}
+	#Type_of_visit {
+		position: absolute;
+		left: 220px;
+		top: 250px;
+		color: white;
+	}
+	#Profile_Search{
+		position: absolute;
+		left: 40px;
+		top: 330px;
+		font-size: 100px;
+		color: white;
+	}
+	#Search__ {
+		position: absolute;
+		left: 70px;
+		top: 424px;
+		color: white;
+	}
+	#Profile_Check{
+		position: absolute;
+		left: 220px;
+		top: 330px;
+		font-size: 100px;
+		color: white;
+	}
+	#Check {
+		position: absolute;
+		left: 235px;
+		top: 424px;
+		color: white;
+	}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<%- include("partials/head") %>
+<body>
+<div id="CONTAINER">
+	<i id="SIGNAL" class="fa fas fa-signal"></i>
+		<i id="WIFI" class="fa fas fa-wifi"></i>
+		<span id="HOUR">7:50 PM</span>
+		<i id="BATTERY" class="fa fas fa-battery-full"></i>
+		<a href="/search-customer"><i Id="BACK" class="fa fas fa-chevron-left"></i></a>
+	<div class="col-md-11">
+		<h6 id="Search_">Search</h6>
+		<h4 id="Profile">Profile</h4>
+		<i id="Icon_Customer" class="fa far fa-user"></i>
+		<p id="Show_Name"><%= costumer.name %></p>
+		<p id="Show_Plate">Plate: <%= costumer.plate %></p>
+		<p id="Show_Make">Make: <%= costumer.make %></p>
+		<p id="Show_Model">Model: <%= costumer.model %></p>
+		<p id="Show_Vin">Vin: <%= costumer.vin %></p>
+		<h4 id="Previous_visits">Previous visits</h4>
+            <div id="Show_T" class="container">
+				<% visits.forEach( function(visit) {%>
+					<div class="card">
+						<div class="card-body">
+						  <p id="Show_Date">Fecha: <%= visit.date %></p>
+						  <p id="Show_Date">License Plate: <%= visit.plate %></p>
+						  <p id="Show_Date">Type of Visit: <%= visit.visit %></p>
+						  <p id="Show_Date">Description: <%= visit.description %></p>
+						</div>
+					</div>
+				<%});%>
+			</div>
+			<a href="/profile"><i Id="BACK_TWO" class="fa fas fa-arrow-circle-left"></i></a>
+			<a href="/search-customer"><i Id="CIRCLE" class="fa fas fa-circle"></i></a>
+	</div>
+</div>
+</body>
+</html>

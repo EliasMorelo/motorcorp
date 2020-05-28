@@ -1,0 +1,26 @@
+
+<nav id="MENU" class="navbar navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <p>Bienvenido: <%= user.name %></p>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/add-customer"><i class="fa far fa-user"></i> Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/add-visit"><i class="fa far fa-search"></i> Type of Visit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/searc-customer"><i class="fa fas fa-car"></i> Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/check"><i class="fa fas fa-check-circle"></i> Check</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout"><i class="fa fas fa-sign-out"></i> LogOut</a>
+        </li>
+      </ul>
+    </div>
+</nav>

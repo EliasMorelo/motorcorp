@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<%- include("partials/head") %>
+<body>
+	<div id="CONTAINER">
+		<i id="SIGNAL" class="fa fas fa-signal"></i>
+		<i id="WIFI" class="fa fas fa-wifi"></i>
+		<span id="HOUR">7:50 PM</span>
+		<i id="BATTERY" class="fa fas fa-battery-full"></i>
+		<img id="Image" src="img/Imagen_1.png">
+		<div id="TEXT">
+			<h3>MotorCorp Service Center</h3>
+		</div>
+		<div class="col-md-11">
+			<form action="/login" method="POST">
+				<div class="form-group">
+					<input class="form-control" type="email" id="Email" name="email" placeholder="Email" autofocus>
+				</div>
+				<div class="form-group">
+					<input class="form-control" type="password" id="Password" name="password" placeholder="Password">
+				</div>
+				<div class="form-group">
+					<input class="btn btn-primary btn-block" type="submit" id="Login" value="Login">
+				</div>
+			</form>
+			<div class="form-group">
+				<a class="mx-auto text-white" id="Sign_Up" href="/add-user">Don't account yet? <b>SignUp Here</b></a>
+			</div>
+			<div class="form-group">
+				<a class="btn btn-primary btn-block " id="Login_with_Facebook" href="/auth/facebook">Login with Facebook</a>
+			</div>
+			<div class="form-group">
+				<a class="btn btn-primary btn-block " id="Login_with_Google_" href="/auth/google">Login with Google</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

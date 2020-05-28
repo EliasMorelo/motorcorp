@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<%- include("partials/head") %>
+<body>
+<div id="CONTAINER">
+	<i id="SIGNAL" class="fa fas fa-signal"></i>
+	<i id="WIFI" class="fa fas fa-wifi"></i>
+	<span id="HOUR">7:50 PM</span>
+	<i id="BATTERY" class="fa fas fa-battery-full"></i>
+	<%- include("partials/navigation") %>
+	<%- include("partials/messages") %>
+	<div class="col-md-11">
+		<form action="/search-customer" method="POST">
+		  <div id="Search" class="input-group">
+			  <input class="form-control" type="text" name="query" placeholder="Search anyone customer by name">
+			  <input type="text" style="display: none;" value="Name" name="by">
+              <button class="btn" type="submit"><i class="fa fas fa-search"></i></button>
+		  </div>
+		</form>
+		<i id="Profile_Customer" class="fa far fa-user"></i>
+		<a id="Customer" href="/add-customer">Customer</a>
+		<i id="Profile_Type" class="fa far fa-search"></i>
+		<a id="Type_of_visit" href="/add-visit">Type of Visit</a>
+		<i id="Profile_Search" class="fa far fa-car"></i>
+		<a id="Search__" href="/search-customer">Search</a>
+		<i id="Profile_Check" class="fa far fa-check-circle"></i>
+		<a id="Check" href="/search-customers">Check</a>
+		<a href="/"><i Id="BACK_TWO_PROFILE" class="fa fas fa-arrow-circle-left"></i></a>
+		<a href="/profile"><i Id="CIRCLE_PROFILE" class="fa fas fa-circle"></i></a>
+	</div>
+</div>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+	integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	crossorigin="anonymous"></script>
